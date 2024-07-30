@@ -109,7 +109,7 @@ def get_weather_data(province):
     if not city:
         raise ValueError(f"Provincia no encontrada: {province}")
 
-    url = f"http://api.openweathermap.org/data/2.5/weather?q={city},EC&appid={openweather_api_key}&units=metric"
+    url = f"http://api.openweathermap.org/data/2.5/weather?q={city},EC&appid=f1408d640a5e38ddbdb8b8123568e8a5&units=metric"
     response = requests.get(url)
     data = response.json()
 
