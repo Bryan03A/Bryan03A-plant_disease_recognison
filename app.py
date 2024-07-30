@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 from PIL import Image
 import tensorflow as tf
@@ -8,7 +9,6 @@ import requests
 import cohere
 import tempfile
 import numpy as np
-import os
 
 # Configura tu clave de API de Cohere
 api_key = os.getenv('COHERE_API_KEY')
