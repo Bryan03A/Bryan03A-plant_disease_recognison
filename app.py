@@ -8,6 +8,7 @@ import requests
 import cohere
 import tempfile
 import numpy as np
+import os
 
 # Configura tu clave de API de Cohere
 api_key = os.getenv('COHERE_API_KEY')
